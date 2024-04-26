@@ -174,9 +174,9 @@ ACF_DefineEngine("Z16XE", {
 	torque = 150,
 	flywheelmass = 0.15,
 	idlerpm = 800,
-	peakminrpm = 3500,
-	peakmaxrpm = 6000,
-	limitrpm = 7600,
+	peakminrpm = 2500,
+	peakmaxrpm = 5500,
+	limitrpm = 7000,
 })
 
 ACF_DefineEngine("2.0-I4-1", {
