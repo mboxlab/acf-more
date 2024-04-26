@@ -1,0 +1,36 @@
+-- Custom engines
+ACF_DefineEngine("Zeda80", {
+	name = "69cc Zeda80",
+	desc = "69cc Zeda80 Single cylinder bikle engine",
+	model = "models/engines/1cyltiny.mdl",
+	sound = "acf_thecrew/engines/bikes/ktm450/ktm450_onlow.wav",
+	category = "Custom-Single",
+	fuel = "Petrol",
+	enginetype = "GenericPetrol",
+	requiresfuel = false,
+	weight = 5.4,
+	torque = 3.632,
+	flywheelmass = 0.005,
+	idlerpm = 1450,
+	peakminrpm = 5200,
+	peakmaxrpm = 6700,
+	limitrpm = 7500,
+})
+
+ACF_DefineEngine("500CC-SingleBoy", {
+	name = "500CC 2 Stroke Satan",
+	desc = "500CC Honda CR500 Engine... Be afraid",
+	model = "models/engines/1cylsml.mdl",
+	sound = "acf_thecrew/engines/bikes/ktm450/ktm450_onlow.wav",
+	category = "Custom-Single",
+	fuel = "Petrol",
+	enginetype = "GenericPetrol",
+	requiresfuel = false,
+	weight = 40,
+	torque = 47,
+	flywheelmass = 0.05,
+	idlerpm = 1050,
+	peakminrpm = 5500,
+	peakmaxrpm = 7500,
+	limitrpm = 9500,
+})

@@ -13,8 +13,7 @@ if ( ACF ) then
 		
 		include( "acfe/sv_thrust.lua" )
 		
-		print( "[ACF-Extra] ACF Extra successfully loaded." )
-		
+
 	end
 	
 else -- if not ACF

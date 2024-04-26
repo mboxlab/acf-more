@@ -1,0 +1,36 @@
+-- Custom engines
+ACF_DefineEngine("1.3-R2", {
+	name = "Mazda 13B",
+	desc = "2 Rotor Mazda Engine.",
+	model = "models/engines/wankel_2_med.mdl",
+	sound = "acf_engines/wankel_medium.wav",
+	category = "Custom-Wankel",
+	fuel = "Petrol",
+	enginetype = "GenericPetrol",
+	weight = 60,
+	torque = 248,
+	requiresfuel = false,
+	flywheelmass = 0.1,
+	idlerpm = 900,
+	peakminrpm = 2750,
+	peakmaxrpm = 6500,
+	limitrpm = 9000,
+})
+
+ACF_DefineEngine("2.6-R4", {
+	name = "Mazda R26B",
+	desc = "4 Rotor Racing Mazda Engine.",
+	model = "models/engines/wankel_4_med.mdl",
+	sound = "acf_engines/wankel_large.wav",
+	category = "Custom-Wankel",
+	fuel = "Petrol",
+	enginetype = "GenericPetrol",
+	weight = 160,
+	torque = 700,
+	requiresfuel = false,
+	flywheelmass = 0.35,
+	idlerpm = 1200,
+	peakminrpm = 4500,
+	peakmaxrpm = 9000,
+	limitrpm = 11000,
+})
